@@ -122,14 +122,14 @@ def main():
                 print("File doesn't exist, please, create the file")
                 continue
             remove_row(file_name)
-        elif command == 's':
+        elif command == 'ss':
             if not exists(file_name):
                 print("File doesn't exist, please, create the file")
                 continue
             if not exists(second_file_name):
                 create_file(second_file_name)
             copy_row(file_name, second_file_name)
-        elif command == 'ss':
+        elif command == 's':
             if not exists(file_name):
                 print("File doesn't exist, please, create the file")
                 continue
